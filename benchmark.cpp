@@ -43,7 +43,7 @@ int main(int argc, char** argv)
        
     std::chrono::time_point<std::chrono::high_resolution_clock> start_time = std::chrono::high_resolution_clock::now();
 
-    sleep(sleep_secs);
+    
       // invoke method to perform the sum
       t = sum(n, &A[0]);
 
