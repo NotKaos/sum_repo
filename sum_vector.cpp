@@ -21,9 +21,9 @@ setup(int64_t N, uint64_t A[])
 
 int64_t
 sum(int64_t N, uint64_t A[])
-{
+{  
+   printf(" inside sum_vector perform_sum, N=%lld \n", N);
    int64_t total = 0;
-   
    for (int64_t i = 0; i < N; i++)
    {
       total += A[i];
