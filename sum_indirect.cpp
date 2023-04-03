@@ -22,7 +22,7 @@ for (int64_t i = 0; i < N; i++)
 int64_t
 sum(int64_t N, uint64_t A[])
 {
-     printf(" inside sum_indirect perform_sum, N=%lld \n", N);
+     
       int64_t sum = 0;
       uint64_t indx = A[0];
    for (int64_t i = 0; i < N; i++){
