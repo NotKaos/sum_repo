@@ -1,0 +1,10 @@
+Problem Size,Sum Direct, Sum Indirect, Sum Vector
+8388608, 
+16777216, 
+33554432, 
+67108864, 
+134217728, 
+268435456, 
+
+
+capacity = 204.8 GB/s memory bandwidth per CPU or 405.6 GB/s
