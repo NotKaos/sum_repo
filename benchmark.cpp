@@ -13,7 +13,7 @@
 #include <random>
 #include <vector>
 #include <string.h>
-
+// I only changed setprecision to 4 and added the timer - Jacob 
 
 extern void setup(int64_t N, uint64_t A[]);
 extern int64_t sum(int64_t N, uint64_t A[]);

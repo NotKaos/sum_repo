@@ -1,10 +1,12 @@
 Problem Size,Sum Direct, Sum Indirect, Sum Vector
-8388608, 
-16777216, 
-33554432, 
-67108864, 
-134217728, 
-268435456, 
+8388608, 0, 2.75, 13.63
+16777216, 0, 1.00, 14.24
+33554432, 0, 0.80, 14.56
+67108864, 0, 0.72, 14.72
+134217728, 0, 0.75, 15.11
+268435456, 0, 0.26, 15.79
 
-
-capacity = 204.8 GB/s memory bandwidth per CPU or 405.6 GB/s
+#sum_direct = 0
+#Sum_Indirect = 
+#Sum_Vector = 
+#capacity = 204.8 GB/s memory bandwidth capacity

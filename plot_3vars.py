@@ -20,7 +20,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-fname = "MemoryBandwidth.csv"
+fname = "MemoryLatency.csv"
 df = pd.read_csv(fname, comment="#")
 print(df)
 
@@ -36,7 +36,7 @@ code1_time = df[var_names[1]].values.tolist()
 code2_time = df[var_names[2]].values.tolist()
 code3_time = df[var_names[3]].values.tolist()
 
-plt.title("Problem size vs. % peak memory bandwidth utilized")
+plt.title("Problem size vs. memory latency")
 
 xlocs = [i for i in range(len(problem_sizes))]
 
@@ -50,7 +50,7 @@ plt.plot(code3_time, "g-^")
 #plt.yscale("log")
 
 plt.xlabel("Problem Sizes")
-plt.ylabel("% peak memory bandwidth utilized")
+plt.ylabel("memory latency (secs)")
 
 varNames = [var_names[1], var_names[2], var_names[3]]
 plt.legend(varNames, loc="best")
